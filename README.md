@@ -6,6 +6,12 @@
   You will need to set up permissions within Slack API if you are working within an organizations Slack you will have to request authorizations to install the app, when you make changes you will have to re-install the app. It is seemless, yet tedious. Bear with the pain. 
 ---
 
+# Links 
+- https://alphacephei.com/vosk/models (Model Location vosk-model-en-us-0.22)
+- https://www.ffmpeg.org/download.html (For this project ffmpeg was downloaded and I used the .exe file within (ffmpeg-2025-01-13-git-851a84650e-full_build\bin)
+- https://api.slack.com/apps/
+- https://platform.openai.com/ (Here you can find your API key)
+
 ## 🚀 **Features**
 
 - **Slack Event Listener**: Listens to Slack events and triggers OBS recording when a user joins or leaves a huddle.
