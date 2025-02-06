@@ -1,9 +1,9 @@
 # 📝 **ScrumSense: Slack-Triggered OBS Recording and Audio Transcription**
 
-**ScrumSense** automates the process of controlling **OBS (Open Broadcaster Software)** based on **Slack** events, recording meetings, and transcribing the audio for **Scrum meeting summaries**. This project uses a combination of **Flask**, **ngrok**, **Vosk**, and **OpenAI's GPT-4** to transcribe audio recordings and summarize the key points from the meeting.
+**ScrumSense** automates the process of controlling **OBS (Open Broadcaster Software)** based on **Slack** events, recording meetings, and transcribing the audio for **Scrum meeting summaries**. This project uses a combination of **Flask**, **ngrok**, **Vosk**, and **OpenAI's GPT-4o** to transcribe audio recordings and summarize the key points from the meeting.
 
 # Note:
-  You will need to set up permissions within Slack API if you are working within an organizations Slack you will have to request authorizations to install the app, when you make changes you will have to re-install the app. It is seemless, yet tedious. Bear with the pain. 
+  If you're working within a Slack organization, you'll need to configure the appropriate permissions within the Slack API. This may involve requesting authorization to install the app. Additionally, any changes made to the app will require you to reinstall it. While    the process is smooth, it can be a bit tedious. 
 ---
 
 # Links 
