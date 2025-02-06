@@ -2,6 +2,8 @@
 
 **ScrumSense** automates the process of controlling **OBS (Open Broadcaster Software)** based on **Slack** events, recording meetings, and transcribing the audio for **Scrum meeting summaries**. This project uses a combination of **Flask**, **ngrok**, **Vosk**, and **OpenAI's GPT-4** to transcribe audio recordings and summarize the key points from the meeting.
 
+# Note:
+  You will need to set up permissions within Slack API if you are working within an organizations Slack you will have to request authorizations to install the app, when you make changes you will have to re-install the app. It is seemless, yet tedious. Bear with the pain. 
 ---
 
 ## 🚀 **Features**
@@ -44,8 +46,10 @@ Before running the application, ensure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/repository-name.git
-cd repository-name
+git clone https://github.com/bgromala555/ScrumSense
+
+cd ScrumSense
+
 ``` 
 
 ### Step 2: Install Python Dependencies
@@ -64,14 +68,19 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Step 3: Set Up Environment Variables
+### Step 3: Set Up Config File
 ```bash
-# Create the .env file with the following contents:
-SLACK_SIGNING_SECRET=your_slack_signing_secret
-OPENAI_API_KEY=your_openai_api_key
-FFMPEG_PATH=/path/to/ffmpeg
-OBS_PATH=/path/to/obs
-VOSK_MODEL_PATH=/path/to/vosk-model
+{
+  "slack_signing_secret": "your_slack_signing_secret",
+  "openai_api_key": "your_openai_api_key",
+  "ffmpeg_path": "/path/to/ffmpeg",
+  "obs_path": "/path/to/obs",
+  "vosk_model_path": "/path/to/vosk-model",
+  "transcripts_dir": "/path/to/transcripts",
+  "recordings_dir": "/path/to/recordings",
+  "real_name": "Full name from Slack Profile
+}
+
 ```
 
 ### Step 4: Set Up Environment Variables
