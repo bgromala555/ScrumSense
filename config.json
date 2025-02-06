@@ -1,0 +1,10 @@
+{
+  "slack_signing_secret": "your_slack_signing_secret",
+  "obs_path": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
+  "recordings_dir": "C:\\Users\\YourUsername\\Videos\\OBS",
+  "vosk_model_path": "C:\\path\\to\\vosk-model-en-us-0.22",
+  "ffmpeg_path": "C:\\path\\to\\ffmpeg\\bin\\ffmpeg.exe",
+  "api_key_file": "C:\\path\\to\\api_key.txt",
+  "transcripts_dir": "C:\\Users\\YourUsername\\Documents\\Transcriptions",
+  "real_name": "Put you actual user profile FULL NAME IN HERE"
+}
